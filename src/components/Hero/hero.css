@@ -1,0 +1,146 @@
+.heroCard {
+  background: linear-gradient(60deg ,var(--accent), var(--primary));
+  position: relative;
+  color: white;
+  height: 80vh;
+  box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.5);
+  border-radius: 20px;
+}
+
+.herosection {
+  margin: 100px 150px 0px 150px;
+}
+.right {
+  font-size: small;
+  position: absolute;
+  z-index: 20;
+  top: 5%;
+  right: 5%;
+  width: 500px;
+}
+
+
+
+
+.right h1 {
+  font-size: 50px;
+  padding: 20px 0px 20px 0px;
+}
+
+.reserve {
+  position: absolute;
+  z-index: 100;
+  right: 25px;
+  top:60%;
+  padding: 10px;
+
+}
+
+.reserve input{
+  all: unset;
+  margin: 10px;
+  padding: 10px;
+  height: 20px;
+  background-color: white;
+  border: solid 1px  var(--secondary);
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.back {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.backed{
+    left: 0;
+    opacity: 0.1;
+    filter: grayscale();
+}
+@media (max-width: 991.98px){
+  .heroCard {
+    background: none;
+    color: white;
+    height: fit-content;
+    box-shadow: none;
+
+    border-radius: 20px;
+  }
+  
+  .herosection {
+    margin: 0px ;
+    height: 30vh;
+    margin-top: 100px;
+  }
+
+  .right {
+    font-size: 12px;
+    position: relative;
+    width: 100vw;
+    padding: 30px;
+    margin-left: 15px;
+    color: black;
+    text-align: center;
+  }
+  .right h1 {
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+  }
+  
+  .reserve {
+    position: relative;
+    padding: 10px;
+    flex-direction: column;
+    transform: translateX(20px);
+  }
+
+
+
+
+  
+  .reserve input{
+    all: unset;
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    border: solid 1px  var(--secondary);
+  
+  }
+
+  .reserve form{
+    display: block;
+    padding: 10px;
+    width: 80%;
+  }
+
+
+.cardActions{
+  flex-direction: column;
+}
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+ 
+  
+  .back {
+    position: relative;
+    width: 100%;
+  }
+  
+  .backed{
+    display: none;
+  }
+}

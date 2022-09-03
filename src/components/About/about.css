@@ -1,0 +1,51 @@
+.about{
+    margin: 100px 100px 0px 100px;
+    position: absolute;
+    z-index: 300;
+}
+.cards{
+    width:50vw;
+    height:80vh;
+}
+.left h1{
+    color: var(--secondary);
+    font-size: 25px;
+}
+.left{
+    padding: 20px;
+    width: 50%;
+    margin-right: 30px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(100,100,100, 0.5)
+    
+}
+
+.backimg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.2;
+    height: 100%;
+}
+.card{
+    background: rgba(0,0,0, 0.3),
+}
+
+
+.card:hover{   
+      background: rgba(0,0,0, 0.3),
+}
+
+.left li{
+    margin-top: 15px;
+    list-style-type: none;
+    color:gray;
+    font-weight:300;
+}
+
+.left h1{
+    padding: 20px;
+}
+
+

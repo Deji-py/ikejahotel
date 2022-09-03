@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:ital,wght@1,900&family=Paytone+One&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex, .flex__center, .flex__column , .flex__wrapper{
+    
+    display: flex;
+}
+
+.flex__center, .flex__column{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__column{
+ flex-direction: column;
+}
+.flex__wrapper{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+:root{
+    --primary:#04509C;
+    --secondary: #118349;
+    --accent: #00ff95;
+    --accent-light: #dafff0;
+    --primary-light: #0066ff;
+}
