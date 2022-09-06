@@ -84,30 +84,7 @@ function About() {
                 277 Rooms
               </h2>
             </Card>
-            {/* <Card sx={{ position: "relative", cursor: "pointer" }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={med1}
-              alt="img"
-              sx={{ height: "100%", position: "absolute" }}
-            />
-            <h2
-            className="card flex__column "
-            style={{
-                position: "absolute",
-                zIndex: "500",
-                bottom: "20px",
-                color: "white",
-                width: "100%",
-                height: "100%",
-                top: 0,
-                background: "rgba(0,0,0, 0.3)",
-            }}
-            >
-              277 Rooms
-            </h2>
-          </Card> */}
+          
             <Card
               sx={{
                 position: "relative",

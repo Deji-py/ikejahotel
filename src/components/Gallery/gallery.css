@@ -1,0 +1,46 @@
+.gallery {
+  width: 100%;
+  display: grid;
+  padding: 100px 20px 20px 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+
+
+.gallCard {
+  position: relative;
+  border-radius: 10px;
+}
+
+.text {
+  border-radius: 10px;
+  position: absolute;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.text blockquote {
+  transform: translateX(0px);
+  margin-top: 20px;
+  transition: 0.5s all ease-in-out;
+}
+
+.text:hover {
+  opacity: 1;
+}
+.text:hover > blockquote {
+  transform: translateX(10px);
+}

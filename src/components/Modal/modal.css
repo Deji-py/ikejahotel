@@ -1,0 +1,68 @@
+.modal {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20000;
+  width: 100%;
+  left: 0;
+  height: 100vh;
+}
+
+
+
+#paycard {
+  border-radius: 20px;
+  background-color: whitesmoke;
+  width: 65%;
+}
+.paymentMet {
+  padding: 20px;
+}
+.subinputcont {
+  margin: 20px 20px 0px 0px;
+  width: 100%;
+}
+.imputwrapper {
+  width: 100%;
+}
+.amountcont {
+  color: #4b4b4b;
+}
+.cardnoinputcont {
+  width: 100%;
+}
+.imputwrapper label {
+  margin-left: 10px;
+}
+.counter {
+  background-color: #e5effa;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.extPrice {
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+}
+.extPrice h4 {
+  padding: 5px;
+  font-weight: 500;
+}
+
+.leftform input {
+  all: unset;
+  padding: 5px;
+  margin: 0px 0px 0px 10px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  border: solid 0.5px #c5c5c5;
+  width: 100%;
+}
+.card h1 {
+  margin: 20px;
+}

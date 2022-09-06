@@ -1,34 +1,78 @@
-.main{
-    margin:100px;
-    padding: 20px;
- 
+.mainRes {
+  margin: 80px;
+  padding: 20px;
 }
 
-
-.mycard{
-    background-color: white;
-    box-shadow: 0px 2px 6px #c5c5c5;
-    padding: 20px;
-    width: 100%;
-    margin: 40px 0px;
-    border-radius: 20px;
+.mycard {
+  background-color: white;
+  box-shadow: 0px 2px 6px #c5c5c5;
+  padding: 20px;
+  width: 100%;
+  margin: 40px 0px;
+  border-radius: 20px;
 }
 
-.middle{
-    width: 300px;
-    padding: 20px;
+.middle {
+  width: 300px;
+  padding: 20px;
+}
+.myback {
+  width: 100%;
 }
 
-.pricing{
-    padding: 20px;
-    border-left: solid 1.5px lightgray;
+.top input {
+  all: unset;
+  width: 300px;
+  height: 30px;
+  border-radius: 100px;
+  backdrop-filter: blur(10px);
+  padding: 10px 10px 10px 30px;
+  background-color: rgba(255, 255, 255, 0.83);
 }
-.middle p{
-    margin-top: 15px;
-    color: gray;
-}
-.imagewrapper{
-    margin: 0px 20px 0px 0px ;
+.top {
+  margin-top: 100px;
 }
 
+.searchIconcont {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  border-radius: 0 100px 100px 0;
+  height: 100%;
+  right: 0;
+  width: 50px;
+}
+.searchIcon {
+  color: rgb(77, 77, 77);
+  font-size: 20px;
+}
 
+.inputcont {
+  position: relative;
+}
+.top h1 {
+  font-size: 50px;
+  color: white;
+}
+.imagecont {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  z-index: -100;
+  left: 0;
+  overflow: hidden;
+}
+
+.pricing {
+  padding: 20px;
+  border-left: solid 1.5px lightgray;
+}
+.middle p {
+  margin-top: 15px;
+  color: gray;
+}
+.imagewrapper {
+  margin: 0px 20px 0px 0px;
+}
