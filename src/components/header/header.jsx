@@ -85,6 +85,7 @@ function Header() {
               Login
             </Button>
           </NavLink>
+          <NavLink to="/signup">
           <Button
             variant="contained"
             disableElevation
@@ -100,6 +101,7 @@ function Header() {
           >
             Signup
           </Button>
+          </NavLink>
         </div>
       </nav>
       <div className="mobileNav">

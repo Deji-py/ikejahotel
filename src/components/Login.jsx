@@ -108,7 +108,7 @@ const Login = () => {
               Don't have an account?
               <NavLink to="/register">
                 <Link
-                  to="/register"
+                  to="/signup"
                   variant="subtitle2"
                   underline="hover"
                   sx={{

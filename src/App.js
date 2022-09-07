@@ -8,6 +8,7 @@ import Reservation from './Reservations/Reservation';
 import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Form/Contact';
 import Login from './components/Login';
+import Signup from './components/Signup';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/login" element={<Login/>}/>
+          <Route path="/signup" element={<Signup/>}/>
         </Routes>
        </Router>  
     </div>
