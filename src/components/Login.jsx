@@ -106,9 +106,8 @@ const Login = () => {
             </Box>
             <Typography color="textSecondary" variant="body2">
               Don't have an account?
-              <NavLink to="/register">
+              <NavLink to="/signup">
                 <Link
-                  to="/signup"
                   variant="subtitle2"
                   underline="hover"
                   sx={{
