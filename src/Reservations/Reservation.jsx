@@ -18,7 +18,7 @@ const rooms = [
       "https://images.unsplash.com/photo-1631049035326-57414e7739eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxob3RlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     title: "Budget Room",
     adults: 2,
-    price:"$60,000",
+    price:"NGN 60,000",
     view: "city View",
     bedType: "6 X 6 Sized Bed",
     categories: "rooms",
@@ -32,7 +32,7 @@ const rooms = [
     adults: 2,
     view: "city View",
     bedType: "6 X 6 Sized Bed",
-    price:"$56,000",
+    price:"NGN 56,000",
     categories: "rooms",
     amenities:
       "6×6 sized Bed, Complimentary Breakfast for One, Free WiFi, Fully Air Conditioned, Reading & Dressing Table, Refrigerator, Toilet & Bath, Toilet and Bath En Suite, TV",
@@ -45,7 +45,7 @@ const rooms = [
     view: "city View",
     bedType: "6 X 6 Sized Bed",
     categories: "rooms",
-    price:"$120,000",
+    price:"NGN 120,000",
     amenities:
       "6×6 sized Bed, Complimentary Breakfast for One, Free WiFi, Fully Air Conditioned, Reading & Dressing Table, Refrigerator, Toilet & Bath, Toilet and Bath En Suite, TV",
   },
@@ -55,7 +55,7 @@ const rooms = [
     title: "Classic Room",
     adults: 2,
     view: "city View",
-    price:"$44,000",
+    price:"NGN 44,000",
     bedType: "6 X 6 Sized Bed",
     categories: "rooms",
     amenities:

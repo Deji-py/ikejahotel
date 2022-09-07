@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Reservation from './Reservations/Reservation';
 import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Form/Contact';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/reservation" element={<Reservation/>}/>
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/login" element={<Login/>}/>
         </Routes>
        </Router>  
     </div>

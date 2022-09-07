@@ -2,7 +2,13 @@ import React, { useState, useSyncExternalStore } from "react";
 import "./header.css";
 import { AiFillHome } from "react-icons/ai";
 import { RiHotelFill, RiContactsBookFill } from "react-icons/ri";
-import { FaAddressBook, FaDoorOpen, FaHamburger, FaHome, FaImages } from "react-icons/fa";
+import {
+  FaAddressBook,
+  FaDoorOpen,
+  FaHamburger,
+  FaHome,
+  FaImages,
+} from "react-icons/fa";
 import { Button, IconButton } from "@mui/material";
 import logo from "../../Asset/mylogo.svg";
 import { NavLink } from "react-router-dom";
@@ -61,19 +67,38 @@ function Header() {
         </NavLink>
 
         <div className="navItem">
+          <NavLink to="/login">
+            <Button
+              variant="contained"
+              disableElevation
+              size="small"
+              sx={{
+                padding: "10px",
+                width: "10vw",
+                marginRight: "10px",
+                background: "var(--secondary)",
+                ":hover": {
+                  background: "var(--secondary)",
+                },
+              }}
+            >
+              Login
+            </Button>
+          </NavLink>
           <Button
             variant="contained"
             disableElevation
             size="small"
             sx={{
               padding: "10px",
-              background: "var(--secondary)",
+              background: "var(--primary)",
+              width: "10vw",
               ":hover": {
-                background: "var(--secondary)",
+                background: "var(--primary)",
               },
             }}
           >
-            Reserve Now
+            Signup
           </Button>
         </div>
       </nav>
