@@ -9,20 +9,40 @@ import "./hero.css";
 export function Home() {
   return (
     <div className="herosection">
-      <img src={back} alt="back" className="back backed" />
+      <img
+        src={
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+        }
+        alt="back"
+        className="backed"
+      />
       <div className="heroCard">
-        <img src={back} alt="back" className="back" />
-
+        <div className="imagecon">
+          <img
+            src={
+              "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+            }
+            alt="back"
+            className="back"
+          />
+        </div>
         <div className="right">
-          <h3>Welcome to Lagos Airport Hotel</h3>
+          <h3>Welcome to Blooz Hotel and suites </h3>
           <h1> HOSPITALITY WITH A GRAND ATTENTION </h1>
-         <p style={{opacity:"0.8", fontSize:"12px", transform:"translateY(-10px)"}}>LAGOS AIRPORT HOTEL LIMITED is a member company of O’dua group of
-          companies and is in fact a pace setter hotel and pan yoruba company in
-          all ages. The hotel has 277 rooms comprising one Monarchial Suite,
-          several Presidential Suites, Executive Suites, Business Suites, Luxury
-          Rooms, Classic Rooms, Deluxe Rooms, Flats 1 and 2, Standard and
-          Executive double rooms. </p>
-          
+          <p
+            style={{
+              opacity: "0.8",
+              fontSize: "12px",
+              transform: "translateY(-10px)",
+            }}
+          >
+            BLOOZ HOTEL AND SUITES is a member company of O’dua group of
+            companies and is in fact a pace setter hotel and pan yoruba company
+            in all ages. The hotel has 277 rooms comprising one Monarchial
+            Suite, several Presidential Suites, Executive Suites, Business
+            Suites, Luxury Rooms, Classic Rooms, Deluxe Rooms, Flats 1 and 2,
+            Standard and Executive double rooms.{" "}
+          </p>
         </div>
 
         <Card

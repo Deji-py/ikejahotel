@@ -1,9 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="106.136" height="71.69" viewBox="0 0 106.136 71.69">
-  <g id="Group_7" data-name="Group 7" transform="translate(-1384.039 -919.083)">
-    <path id="Path_7" data-name="Path 7" d="M1385.295,983.877l19.667-37.318-19.667-10.59,9.077-3.026,18.155,10.59-20.172,40.344Z" fill="#04509c" stroke="#00509a" stroke-width="1"/>
-    <path id="Path_8" data-name="Path 8" d="M1398.911,929.917l5.547-4.034,21.685,12.1-21.685,44.882h-6.724l20.237-40.271Z" fill="#04509c" stroke="#00509a" stroke-width="1"/>
-    <path id="Path_9" data-name="Path 9" d="M1407.546,923.842l6.863-4.178,25.065,14.622L1414.41,983.82h-6.863l24.767-45.655Z" fill="#04509c" stroke="#00509a" stroke-width="1"/>
-    <path id="Path_10" data-name="Path 10" d="M1435.3,954.376l8.952,27.654-7.758,8.057s4.774-10.444-6.863-9.549-8.057,0-8.057,0l5.371-9.847h4.476l-1.79-7.46Z" fill="#0e844d" stroke="#11844b" stroke-width="1"/>
-    <path id="Path_11" data-name="Path 11" d="M1439.475,948.013l9.25,33.719s6.266-4.178,7.162-4.476-2.089-5.371-2.089-5.371,4.476-3.282,5.968,0,9.847,14.92,9.847,14.92,12.831,7.758,16.71,0,3.282-9.549,3.282-9.549l-6.565,3.282c-1.641.821-11.339-16.71-11.339-16.71s-5.371-7.758-13.13-2.387-4.774,2.387-4.774,2.387l-9.549-28.945Z" fill="#118349" stroke="#0c8349" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="164.493" height="64" viewBox="0 0 164.493 64">
+  <g id="Group_6" data-name="Group 6" transform="translate(-142 -713)">
+    <g id="Group_3" data-name="Group 3" transform="translate(-14 33)">
+      <g id="Group_2" data-name="Group 2" transform="translate(40 10)">
+        <text id="BLOOZ" transform="translate(190 715)" fill="#4bc9f1" font-size="50" font-family="ForteMT, Forte"><tspan x="-73.376" y="0">BLOOZ</tspan></text>
+        <text id="BLOOZ-2" data-name="BLOOZ" transform="translate(190 718)" fill="#4bc9f1" font-size="50" font-family="ForteMT, Forte"><tspan x="-73.376" y="0">BLOOZ</tspan></text>
+      </g>
+      <g id="Group_4" data-name="Group 4">
+        <g id="Group_1" data-name="Group 1" transform="translate(43 10)">
+          <text id="BLOOZ-3" data-name="BLOOZ" transform="translate(190 715)" fill="#45e3cd" stroke="#114cc4" stroke-width="1" font-size="50" font-family="ForteMT, Forte"><tspan x="-73.376" y="0">BLOOZ</tspan></text>
+        </g>
+        <text id="Hotel_and_suites" data-name="Hotel and suites" transform="translate(230 741)" fill="#100108" font-size="15" font-family="ForteMT, Forte"><tspan x="-53.514" y="0">Hotel and suites</tspan></text>
+      </g>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(11 16)">
+      <path id="Path_4" data-name="Path 4" d="M294.819,710.11c8.129-8.129,9-7.694,10.162-4.21S294.819,710.11,294.819,710.11Z" transform="translate(-9.571 -2.118)" fill="#f72586"/>
+      <path id="Path_5" data-name="Path 5" d="M300.19,721.828c8.42.871,7.258,8.42,4.79,8.42s-1.016-4.645-2.323-5.807A24.553,24.553,0,0,1,300.19,721.828Z" transform="translate(-14.275 -12)" fill="#f72586"/>
+      <path id="Path_6" data-name="Path 6" d="M0,8.42C8.42,7.549,7.258,0,4.79,0S3.774,4.645,2.468,5.807A24.554,24.554,0,0,0,0,8.42Z" transform="matrix(0.454, -0.891, 0.891, 0.454, 276.181, 703.39)" fill="#f72586"/>
+    </g>
   </g>
 </svg>

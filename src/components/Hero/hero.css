@@ -1,6 +1,7 @@
 .heroCard {
-  background: linear-gradient(60deg ,var(--accent), var(--primary));
+  background: linear-gradient(60deg, var(--secondary), var(--primary));
   position: relative;
+  overflow: hidden;
   color: white;
   height: 80vh;
   box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.5);
@@ -8,63 +9,67 @@
 }
 
 .herosection {
-  margin: 100px 150px 0px 150px;
+  margin: 100px 200px 0px 200px;
 }
 .right {
   font-size: small;
   position: absolute;
   z-index: 20;
   top: 5%;
+  text-align: center;
   right: 5%;
   width: 500px;
 }
 
 
 
+.imagecon {
+  width: 50%;
+  overflow: hidden;
+  height: 100%;
+}
+
 
 .right h1 {
+  margin-top: 20px;
   font-size: 50px;
   padding: 20px 0px 20px 0px;
+}
+
+.back{
+  height: 100%;
 }
 
 .reserve {
   position: absolute;
   z-index: 100;
   right: 40px;
-  top:62%;
+  top: 62%;
   padding: 10px;
-
 }
 
-.reserve input{
+.reserve input {
   all: unset;
   margin: 10px;
   padding: 10px;
   height: 20px;
   background-color: white;
-  border: solid 1px  var(--secondary);
-
+  border: solid 1px var(--secondary);
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-
-
-.back {
+.backed {
   position: absolute;
   top: 0;
-  height: 100%;
+  left: 0;
+  opacity: 0.1;
+  filter: grayscale();
 }
-
-.backed{
-    left: 0;
-    opacity: 0.1;
-    filter: grayscale();
-}
-@media (max-width: 991.98px){
+@media (max-width: 991.98px) {
   .heroCard {
     background: none;
     color: white;
@@ -73,9 +78,9 @@ a{
 
     border-radius: 20px;
   }
-  
+
   .herosection {
-    margin: 0px ;
+    margin: 0px;
     height: 30vh;
     margin-top: 100px;
   }
@@ -94,7 +99,7 @@ a{
     padding: 20px;
     color: black;
   }
-  
+
   .reserve {
     position: relative;
     padding: 10px;
@@ -102,45 +107,37 @@ a{
     transform: translateX(20px);
   }
 
-
-
-
-  
-  .reserve input{
+  .reserve input {
     all: unset;
     margin: 10px;
     padding: 10px;
     height: 20px;
     width: 100%;
     background-color: white;
-    border: solid 1px  var(--secondary);
-  
+    border: solid 1px var(--secondary);
   }
 
-  .reserve form{
+  .reserve form {
     display: block;
     padding: 10px;
     width: 80%;
   }
 
+  .cardActions {
+    flex-direction: column;
+  }
 
-.cardActions{
-  flex-direction: column;
-}
-  
-  a{
+  a {
     text-decoration: none;
     color: black;
   }
-  
- 
-  
+
   .back {
     position: relative;
     width: 100%;
   }
-  
-  .backed{
+
+  .backed {
     display: none;
   }
 }

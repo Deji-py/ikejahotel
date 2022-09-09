@@ -19,7 +19,6 @@ function Header() {
     <header className="flex__wrapper">
       <div className="logo flex__wrapper">
         <img src={logo} alt="logo" className="logoimg" />
-        <h2>IKEJA AIRPORT HOTEL</h2>
       </div>
       <nav className="navbar flex__wrapper desktop" id="navbar">
         <NavLink
@@ -89,6 +88,7 @@ function Header() {
           <Button
             variant="contained"
             disableElevation
+
             size="small"
             sx={{
               padding: "10px",

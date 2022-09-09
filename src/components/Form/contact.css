@@ -1,7 +1,7 @@
 .contact {
   margin: 100px;
   padding: 20px;
-  background: linear-gradient(60deg ,var(--accent), var(--primary));
+  background: linear-gradient(60deg ,var(--secondary), var(--primary));
   border-radius: 20px;
   box-shadow: 0px 2px 6px #c5c5c5;
 }

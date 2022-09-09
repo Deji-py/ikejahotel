@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import { FaChevronRight, FaMapMarker, FaPhone } from "react-icons/fa";
+import { FaChevronRight, FaMapMarker, FaPaperPlane, FaPhone } from "react-icons/fa";
 import "./contact.css";
 import image from "../../Asset/media1.jpg";
 
@@ -30,6 +30,7 @@ function Contact() {
               disableElevation
               variant="contained"
               size="large"
+              endIcon={<FaPaperPlane size={15}/>}
               sx={{
                 width: "10vw",
                 borderRadius: "100px",

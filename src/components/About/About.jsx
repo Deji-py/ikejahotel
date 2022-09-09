@@ -26,7 +26,7 @@ function About() {
           <div className="left">
             <h1>About us</h1>
             <p style={{ color: "gray", fontSize: "14px" }}>
-              LAGOS AIRPORT HOTEL LIMITED is a member company of O’dua group of
+              BLOOZ HOTEL is a member company of O’dua group of
               companies and is in fact a pace setter hotel and pan yoruba
               company in all ages. The hotel has 277 rooms comprising one
               Monarchial Suite, several Presidential Suites, Executive Suites,

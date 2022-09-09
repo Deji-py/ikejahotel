@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 * {
@@ -12,35 +12,39 @@ body {
   box-sizing: border-box;
 }
 
-.flex, .flex__center, .flex__column , .flex__wrapper{
-    
-    display: flex;
+.flex,
+.flex__center,
+.flex__column,
+.flex__wrapper {
+  display: flex;
 }
 
-.flex__center, .flex__column{
-    justify-content: center;
-    align-items: center;
+.flex__center,
+.flex__column {
+  justify-content: center;
+  align-items: center;
 }
 
-.flex__column{
- flex-direction: column;
+.flex__column {
+  flex-direction: column;
 }
-.flex__wrapper{
-    justify-content: space-between;
-    align-items: center;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+.flex__wrapper {
+  justify-content: space-between;
+  align-items: center;
 }
 
-:root{
-    --primary:#04509C;
-    --secondary: #118349;
-    --accent: #00ff95;
-    --accent-light: #dafff0;
-    --primary-light: #0066ff;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+:root {
+ --secondary: #00b0b6;
+  --body: rgb(0, 24, 31);
+  --primary: #f72586;
+  --accent: #0066ff;
+  --accent-light: #dafff0;
+  --primary-light: #0066ff;
 }
